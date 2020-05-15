@@ -1,0 +1,5 @@
+2020-05-15 13:42:50,048 ERROR HomeWorkBuilding.Main [main] HomeWorkBuilding.Main.main(Main.java:35) HomeWorkBuilding.buildingExceptions.IlluminanceTooMuchException:  Room:Hall lk cannot be greater than 4000 lx, current lx:3500
+2020-05-15 13:46:00,473 ERROR HomeWorkBuilding.Main [main] HomeWorkBuilding.Main.main(Main.java:36)  Room:Hall lk cannot be greater than 4000 lx, current lx:3500
+2020-05-15 13:48:21,124 ERROR HomeWorkBuilding.Main [main] HomeWorkBuilding.Main.main(Main.java:36)  Room:Hall lk cannot be greater than 4000 lx, current lx:3500
+2020-05-15 14:04:32,388 ERROR HomeWorkBuilding.Main [main] HomeWorkBuilding.Main.main(Main.java:36)  Room:Hall lk cannot be greater than 4000 lx, current lx:3500
+2020-05-15 14:15:06,317 ERROR HomeWorkBuilding.Main [main] HomeWorkBuilding.Main.main(Main.java:37) area of all furniture cannot exceed 70% of the room area, current available space 32.0 m^2
