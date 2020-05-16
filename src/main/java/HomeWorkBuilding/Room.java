@@ -20,7 +20,6 @@ public class Room implements Lighting, Interior {
         this.area = area;
         this.windows = windows;
         this.sumOfLux = windows * 700;
-
     }
 
     public void addLightBulb(LightBulb lightBulb) throws IlluminanceTooMuchException {
