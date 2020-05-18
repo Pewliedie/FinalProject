@@ -1,6 +1,6 @@
-package HomeWorkBuilding;
+package homework.building.abstract_classes;
 
-public class Furniture {
+public abstract class Furniture {
     private String nameOfFurniture;
     private int areaOfFurniture;
 
@@ -13,15 +13,19 @@ public class Furniture {
         return areaOfFurniture;
     }
 
+    public String getNameOfFurniture() {
+        return nameOfFurniture;
+    }
+
+    public void setNameOfFurniture(String nameOfFurniture) {
+        this.nameOfFurniture = nameOfFurniture;
+    }
+
     @Override
     public String toString() {
         return nameOfFurniture +
                 ": area of furniture: " + areaOfFurniture +
                 "m^2";
     }
-}
-
-interface Interior {
-    void addInterior(Furniture furniture);
 }
 

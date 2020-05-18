@@ -1,6 +1,4 @@
-package HomeWorkBuilding;
-
-import HomeWorkBuilding.buildingExceptions.IlluminanceTooMuchException;
+package homework.building.illumination;
 
 public class LightBulb {
     private int lx;
@@ -17,9 +15,5 @@ public class LightBulb {
     public String toString() {
         return "Bulb: " + lx + "lx";
     }
-}
-
-interface Lighting {
-    void addLightBulb(LightBulb lightBulb) throws IlluminanceTooMuchException;
 }
 

@@ -1,15 +1,14 @@
-package HomeWorkBuilding;
+package homework.building.abstract_classes;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.util.ArrayList;
 
-public class Building {
+public abstract class Building {
     private String buildingName;
     private ArrayList<Room> rooms = new ArrayList<Room>();
 
-    Logger logger = LogManager.getLogger();
+    private final Logger logger = LogManager.getLogger();
 
     public Building(String buildingName) {
         this.buildingName = buildingName;
@@ -33,6 +32,21 @@ public class Building {
         for (Room r : rooms) {
             logger.info(r);
         }
+    }
+
+    public String getBuildingName() {
+        return buildingName;
+    }
+
+    public void setBuildingName(String buildingName) {
+        this.buildingName = buildingName;
+    }
+
+    @Override
+    public String toString() {
+        return "Building{" +
+                "buildingName='" + buildingName + '\'' +
+                '}';
     }
 }
 

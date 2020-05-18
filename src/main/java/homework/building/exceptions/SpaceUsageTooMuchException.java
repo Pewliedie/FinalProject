@@ -1,4 +1,4 @@
-package HomeWorkBuilding.buildingExceptions;
+package homework.building.exceptions;
 
 public class SpaceUsageTooMuchException extends RuntimeException {
     public SpaceUsageTooMuchException(String message) {
