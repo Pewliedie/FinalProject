@@ -9,8 +9,8 @@ import homework.building.exceptions.SpaceUsageTooMuchException;
 import java.util.ArrayList;
 
 public abstract class Room implements Lighting, Interior {
-    private ArrayList<Furniture> furniture = new ArrayList<Furniture>();
-    private ArrayList<LightBulb> lightBulbs = new ArrayList<LightBulb>();
+    protected ArrayList<Furniture> furniture = new ArrayList<Furniture>();
+    protected ArrayList<LightBulb> lightBulbs = new ArrayList<LightBulb>();
 
     private String roomName;
     private double area;

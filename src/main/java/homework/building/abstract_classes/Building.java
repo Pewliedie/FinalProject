@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public abstract class Building {
     private String buildingName;
-    private ArrayList<Room> rooms = new ArrayList<Room>();
+    protected ArrayList<Room> rooms = new ArrayList<Room>();
 
     private final Logger logger = LogManager.getLogger();
 
@@ -40,13 +40,6 @@ public abstract class Building {
 
     public void setBuildingName(String buildingName) {
         this.buildingName = buildingName;
-    }
-
-    @Override
-    public String toString() {
-        return "Building{" +
-                "buildingName='" + buildingName + '\'' +
-                '}';
     }
 }
 
