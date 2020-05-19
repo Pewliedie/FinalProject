@@ -182,3 +182,54 @@ Furniture: [Office Table: area of furniture: 3m^2, Office Chair: area of furnitu
 Illumination: 4000lx, Windows: 5, LightBulbs: [Bulb: 400lx, Bulb: 100lx]
 Area: 100,0 m^2
 Furniture: [Giant Table: area of furniture: 20m^2], free: 71,4 %
+2020-05-19 11:32:24,538 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:31) Office building:
+2020-05-19 11:32:24,543 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:33)  Room: Office room #1
+Illumination: 3300lx, Windows: 4, LightBulbs: [Bulb: 400lx, Bulb: 100lx]
+Area: 50,0 m^2
+Furniture: [Office Table: area of furniture: 3m^2, Office Chair: area of furniture: 5m^2], free: 77,1 %
+2020-05-19 11:32:24,543 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:33)  Room: Hall #1
+Illumination: 4000lx, Windows: 5, LightBulbs: [Bulb: 400lx, Bulb: 100lx]
+Area: 100,0 m^2
+Furniture: [Giant Table: area of furniture: 20m^2, Long Chair: area of furniture: 10m^2], free: 57,1 %
+2020-05-19 12:20:26,362 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:31) Office building:
+2020-05-19 12:20:26,368 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:33)  Room: Office room #1
+Illumination: 3300lx, Windows: 4, LightBulbs: [Bulb: 400lx, Bulb: 100lx]
+Area: 50,0 m^2
+Furniture: [Office Table: area of furniture: 3m^2, Office Chair: area of furniture: 5m^2], free: 77,1 %
+2020-05-19 12:20:26,369 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:33)  Room: Hall #1
+Illumination: 4000lx, Windows: 5, LightBulbs: [Bulb: 400lx, Bulb: 100lx]
+Area: 100,0 m^2
+Furniture: [Giant Table: area of furniture: 20m^2, Long Chair: area of furniture: 10m^2], free: 57,1 %
+2020-05-19 12:22:31,467 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:31) Office building:
+2020-05-19 12:22:31,473 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:33)  Room: Office room #1
+Illumination: 3300lx, Windows: 4, LightBulbs: [Bulb: 400lx, Bulb: 100lx]
+Area: 50,0 m^2
+Furniture: [Office Table: area of furniture: 3m^2, Office Chair: area of furniture: 5m^2], free: 77,1 %
+2020-05-19 12:22:31,474 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:33)  Room: Hall #1
+Illumination: 4000lx, Windows: 5, LightBulbs: [Bulb: 400lx, Bulb: 100lx]
+Area: 100,0 m^2
+Furniture: [Giant Table: area of furniture: 20m^2, Long Chair: area of furniture: 10m^2], free: 57,1 %
+2020-05-19 12:22:50,196 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:31) Office building:
+2020-05-19 12:22:50,203 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:33)  Room: Office room #1
+Illumination: 3300lx, Windows: 4, LightBulbs: [Bulb: 400lx, Bulb: 100lx]
+Area: 50,0 m^2
+Furniture: [Office Table: area of furniture: 3m^2, Office Chair: area of furniture: 5m^2], free: 77,1 %
+2020-05-19 12:22:50,204 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:33)  Room: Hall #1
+Illumination: 4000lx, Windows: 5, LightBulbs: [Bulb: 400lx, Bulb: 100lx]
+Area: 100,0 m^2
+Furniture: [Giant Table: area of furniture: 20m^2, Long Chair: area of furniture: 10m^2], free: 57,1 %
+2020-05-19 12:23:07,426 ERROR main_activity.Main [main] homework.building.main_activity.Main.main(Main.java:34) Office building:Too much windows
+2020-05-19 12:23:07,431 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:31) Office building:
+2020-05-19 12:23:07,433 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:33)  Room: Office room #1
+Illumination: 2800lx, Windows: 4, LightBulbs: no Light bulbs
+Area: 50,0 m^2
+Furniture: no furniture, free: 100,0 %
+2020-05-19 12:26:59,760 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:31) Office building:
+2020-05-19 12:26:59,766 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:33)  Room: Office room #1
+Illumination: 3300lx, Windows: 4, LightBulbs: [Bulb: 400lx, Bulb: 100lx]
+Area: 50,0 m^2
+Furniture: [Office Table: area of furniture: 3m^2, Office Chair: area of furniture: 5m^2], free: 77,1 %
+2020-05-19 12:26:59,767 INFO abstract_classes.Building [main] homework.building.abstract_classes.Building.describe(Building.java:33)  Room: Hall #1
+Illumination: 4000lx, Windows: 5, LightBulbs: [Bulb: 400lx, Bulb: 100lx]
+Area: 100,0 m^2
+Furniture: [Giant Table: area of furniture: 20m^2, Long Chair: area of furniture: 10m^2], free: 57,1 %

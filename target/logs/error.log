@@ -11,3 +11,4 @@
 2020-05-18 19:31:29,737 ERROR building.Main [main] homework.building.Main.main(Main.java:38) Office building: Room:Office room #1 area of all furniture cannot exceed 70% of the room area, current available space 0.0 m^2
 2020-05-18 19:31:42,111 ERROR building.Main [main] homework.building.Main.main(Main.java:38) Office building: Room:Office room #1 area of all furniture cannot exceed 70% of the room area, current available space 0.0 m^2
 2020-05-18 21:27:18,878 ERROR main_activity.Main [main] homework.building.main_activity.Main.main(Main.java:41) Office building: There is no such room
+2020-05-19 12:23:07,426 ERROR main_activity.Main [main] homework.building.main_activity.Main.main(Main.java:34) Office building:Too much windows

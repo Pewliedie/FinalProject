@@ -17,13 +17,10 @@ public class Main {
 
         Building building1 = new OfficeBuilding("Office building");
 
-        Room room1 = new OfficeRoom("Office room #1", 50, 4);
-        Room room2 = new Hall("Hall #1", 100, 5);
-
-        building1.addRoom(room1);
-        building1.addRoom(room2);
-
         try {
+            building1.addRoom(new OfficeRoom("Office room #1", 50, 4));
+            building1.addRoom(new Hall("Hall #1", 100, 5));
+
             building1.getRoomByName("Office room #1").addLightBulb(new LightBulb(400));
             building1.getRoomByName("Office room #1").addLightBulb(new LightBulb(100));
             building1.getRoomByName("Office room #1").addInterior(new Table("Office Table", 3));

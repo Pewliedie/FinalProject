@@ -20,10 +20,14 @@ public abstract class Room implements Lighting, Interior {
     private final double AREA_PERCENTAGE;
 
     public Room(String roomName, int area, int windows) {
+        if (windows>5){
+            throw new IlluminanceTooMuchException("Too much windows");
+        }
+
+        this.sumOfLux = windows * 700;
         this.roomName = roomName;
         this.area = area;
         this.windows = windows;
-        this.sumOfLux = windows * 700;
         AREA_PERCENTAGE = area * 0.7;
     }
 
